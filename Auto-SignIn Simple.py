@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 # config #
+browser = "phantomjs" # phantomjs,firefox,chrome
+location = "C:/" # only for windows
 url = "http://172.18.4.1"
 username = "yourusername"
 passcode = "yourpasscode"
@@ -9,12 +11,16 @@ delay = 5 # delay till the browser closes after sign in. The server needs to pro
 
 # import #
 from selenium import webdriver
-import time
+import times
 ##########
 
 #set your web driver
-driver = webdriver.PhantomJS() #needs PhantomJS
-#driver = webdriver.Firefox() #needs geckodriver
+if browser == "phantomjs":
+    driver = webdriver.PhantomJS() #needs PhantomJS
+elif browser == "firefox":
+    driver = webdriver.Firefox() #needs geckodriver
+elif browser == "chrome":
+    driver = webdriver.Chrome() #needs N/A not sure if this works
 
 #Open the page
 driver.get(url)
