@@ -1,6 +1,6 @@
 # Faster-Sign-In-web
 
-It's made to automaticly sign into a specific local Server but also could be used as a template for 
+It's made to automaticly sign into a specific local Server but also could be used as a template for own use
 
 ---
 
