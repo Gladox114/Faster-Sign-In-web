@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
 # config #
-browser = "phantomjs" # phantomjs,firefox,chrome
-location = "C:/" # only for windows
-url = "http://172.18.4.1"
 username = "yourusername"
 passcode = "yourpasscode"
+
+browser = "phantomjs" # phantomjs,firefox,chrome
+url = "http://172.18.4.1"
 delay = 5 # delay till the browser closes after sign in. The server needs to process your sign in
 ##########
 
