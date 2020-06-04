@@ -23,6 +23,7 @@ Simple Version should save the sign in data as plain text in the same file or se
 
 Download the Geckodrivers from this repository
 https://github.com/mozilla/geckodriver/releases
+(Note that you need to have Firefox installed for this)
 
 * Linux
 
@@ -32,8 +33,9 @@ https://github.com/mozilla/geckodriver/releases
       
 * Windows
 
-extract the exe and run it to install it.
+Extract the exe in the same folder
 
 * Mac
 
 I really don't know
+
