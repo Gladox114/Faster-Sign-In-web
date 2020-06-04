@@ -17,3 +17,23 @@ Encrypted Version should have a config file
 
 
 Simple Version should save the sign in data as plain text in the same file or seperate
+
+---
+# Installation
+
+Download the Geckodrivers from this repository
+https://github.com/mozilla/geckodriver/releases
+
+* Linux
+
+      tar -xvzf geckodriver*
+      chmod +x geckodriver
+      sudo mv geckodriver /usr/local/bin/
+      
+* Windows
+
+extract the exe and run it to install it.
+
+* Mac
+
+I really don't know
